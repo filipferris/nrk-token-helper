@@ -1,0 +1,16 @@
+{
+  "name": "nrk-token-helper",
+  "version": "1.0.0",
+  "description": "Extract NRK authentication tokens for Home Assistant NRK TV integration",
+  "main": "index.js",
+  "bin": {
+    "nrk-token-helper": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "license": "MIT"
+}
